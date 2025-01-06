@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - FreshAir AC Cleaning Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #00aaff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0077cc;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #005fa3;
+        }
+
+        .contact {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .contact h2 {
+            color: #0077cc;
+            text-align: center;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .contact-form label {
+            font-weight: bold;
+        }
+
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #0077cc;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+
+        .contact-form button:hover {
+            background-color: #005fa3;
+        }
+
+        footer {
+            background-color: #00aaff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FreshAir AC Cleaning Services</h1>
+        <p>Breathing New Life Into Your Air Conditioning Systems</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, need a quote, or want to schedule a service, please reach out to us using the form below:</p>
+
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <p>You can also contact us at:</p>
+        <p><strong>Email:</strong> support@freshair.com</p>
+        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 FreshAir AC Cleaning Services | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
